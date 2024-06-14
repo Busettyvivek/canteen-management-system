@@ -1,0 +1,55 @@
+.cart {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 10px;  /* Curved corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart h2 {
+    margin: 0 0 10px;
+  }
+  
+  .cart ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cart li {
+    padding: 10px 0;
+    border-bottom: 1px solid #e9ecef;
+  }
+  
+  .cart li:last-child {
+    border-bottom: none;
+  }
+  
+  .cart p {
+    font-weight: bold;
+  }
+  
+  .datetimePicker {
+    margin-top: 10px;
+  }
+  
+  .datetimePicker label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .bookOrderButton {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .bookOrderButton:hover {
+    background-color: #218838;
+  }
+  

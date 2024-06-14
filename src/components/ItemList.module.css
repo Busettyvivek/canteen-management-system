@@ -1,0 +1,17 @@
+/* src/components/ItemList.module.css */
+
+.itemList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .categoryTitle {
+    margin: 20px 0 10px;
+    font-size: 1.8em;
+    color: #343a40;
+    text-align: center;
+  }
+  
